@@ -4,28 +4,28 @@
 <head>
 
 
-    <title>Trump Estates</title>
-    <meta property="og:title" content="Trump Estates">
+    <title>The Trump Organization | Luxury Real Estate Portfolio</title>
+    <meta property="og:title" content="The Trump Organization | Luxury Real Estate Portfolio">
 
 
     <meta name="description"
-        content="The Trump Collection of Estates represent the most premier and exclusive properties anywhere in the world. Each one is more unique than the next with architectural details and history that simply cannot be replicated.">
+        content="The official website of The Trump Organization. Explore our luxury real estate portfolio of the finest hotels, golf courses, estates and more. Learn about our history and the ultimate trump lifestyle.">
     <meta property="og:description"
-        content="The Trump Collection of Estates represent the most premier and exclusive properties anywhere in the world. Each one is more unique than the next with architectural details and history that simply cannot be replicated.">
+        content="The official website of The Trump Organization. Explore our luxury real estate portfolio of the finest hotels, golf courses, estates and more. Learn about our history and the ultimate trump lifestyle.">
 
 
-    <meta property="og:image" content="https://assets.trump.com/website/business/LA_Artboard_1.jpg">
+    <meta property="og:image" content="">
 
 
     <meta property="og:type" content="website" />
 
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Trump Estates | The Trump Organization | Luxury Real Estate Portfolio">
+    <meta name="twitter:title" content="The Trump Organization | Luxury Real Estate Portfolio">
 
 
     <meta name="twitter:description"
-        content="The Trump Collection of Estates represent the most premier and exclusive properties anywhere in the world. Each one is more unique than the next with architectural details and history that simply cannot be replicated.">
+        content="The official website of The Trump Organization. Explore our luxury real estate portfolio of the finest hotels, golf courses, estates and more. Learn about our history and the ultimate trump lifestyle.">
 
 
     <meta name="twitter:image" content="">
@@ -47,10 +47,12 @@
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/site.css" type="text/css" />
+    <link rel="stylesheet" href="./assets/css/meet-greet.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 
     <!-- OneTrust Cookies Consent Notice start -->
     <script src="https://cdn.cookielaw.org/consent/f1c5fa45-25a4-4dad-884f-7803664a0269.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- OneTrust Cookies Consent Notice end -->
 
     <!-- Google Tag Manager -->
@@ -72,7 +74,7 @@
     </style>
 </head>
 
-<body>
+<body class="home no-header-border">
     <script>
         var viewportWidth = window.innerWidth || document.documentElement.clientWidth;
         if (viewportWidth > 960) { document.body.classList.add('is-header-desktop'); } else { document.body.classList.add('is-header-mobile'); }
@@ -85,6 +87,11 @@
                 <span class="button-container">
                     <button id="mobile-menu-trigger" aria-expanded="false" aria-controls="menu"
                         aria-label="Open Menu">Menu<span></span><span></span><span></span><span></span></button>
+                </span>
+                <span class="button-container">
+                    <button id="mobile-menu-trigger" aria-expanded="true" aria-controls="menu" aria-label="Close Menu"
+                        class="is-open"
+                        style="display: none;">Menu<span></span><span></span><span></span><span></span></button>
                 </span>
                 <nav id="header-nav" role="navigation" class="nav" aria-label="Primary Navigation">
                     <ul id="social">
@@ -129,7 +136,7 @@
                                                     <a href="/timeline/" class="" id="">Timeline</a>
 
                                                 </li>
-                                                <li id="" class="active">
+                                                <li id="" class="">
 
                                                     <button id="" class="level-2-trigger level-2-trigger"
                                                         aria-owns="vin-2nd-lvl-menu-id-3" aria-expanded="false"><span
@@ -161,16 +168,16 @@
                                         </div>
                                     </div>
                                     <a href="/leadership" class="mega-menu-right full-bg"
-                                        style="background-image: url(https://assets.trump.com/website/general/leadership_II__copy_thumbnail.jpeg);background-position: top center;">
+                                        style="background-image: url(./website/general/leadership_II__copy_thumbnail.jpeg);background-position: top center;">
                                         <span>Eric Trump & Donald J. Trump Jr.</span>
-                                        <img src="https://assets.trump.com/website/general/story_mm.jpg"
-                                            alt="Eric Trump & Donald J. Trump Jr." class="mobile-image">
+                                        <img src="./website/general/story_mm.jpg" alt="Eric Trump & Donald J. Trump Jr."
+                                            class="mobile-image">
                                     </a>
                                 </div>
                             </li>
                             <li class="level-1 has-dropdown-menu">
-                                <span onclick="location.href='/hotels';" class="overview-btn btn">Overview</span>
-                                <a href="/hotels" class="level-1-link level-1-trigger" aria-expanded="false"
+                                <span onclick="location.href='./hotels.html';" class="overview-btn btn">Overview</span>
+                                <a href="./hotels.html" class="level-1-link level-1-trigger" aria-expanded="false"
                                     aria-haspopup="true" aria-owns="ddm-hotels" id="ddm-hotels-link"><span
                                         class="level-1-trigger-icon"></span>Hotels</a>
                                 <div id="ddm-hotels" class="mega-menu dropdown-menu" role="group"
@@ -181,7 +188,7 @@
                                             <!-- Draw Nav / Menu -->
                                             <ul class="cat level1-menu vin-1st-lvl-menu-1" id="vin-1st-lvl-menu-id-1"
                                                 aria-labelledby="sub-menu-section-hotels_north_america">
-                                                <li id="" class="active">
+                                                <li id="" class="">
 
                                                     <button id="" class=" level-2-trigger"
                                                         aria-owns="vin-2nd-lvl-menu-id-1" aria-expanded="false"><span
@@ -191,13 +198,13 @@
                                                         id="vin-2nd-lvl-menu-id-1">
                                                         <li id="" class="">
 
-                                                            <a href="/hotels/trump-international-hotel-tower-new-york"
+                                                            <a href="./hotels.html/trump-international-hotel-tower-new-york"
                                                                 class="" id="">New York, NY</a>
 
                                                         </li>
                                                     </ul>
                                                 </li>
-                                                <li id="" class="active">
+                                                <li id="" class="">
 
                                                     <button id="" class=" level-2-trigger"
                                                         aria-owns="vin-2nd-lvl-menu-id-1" aria-expanded="false"><span
@@ -207,13 +214,13 @@
                                                         id="vin-2nd-lvl-menu-id-1">
                                                         <li id="" class="">
 
-                                                            <a href="/hotels/trump-national-doral-miami" class=""
+                                                            <a href="./hotels.html/trump-national-doral-miami" class=""
                                                                 id="">Miami, FL</a>
 
                                                         </li>
                                                     </ul>
                                                 </li>
-                                                <li id="" class="active">
+                                                <li id="" class="">
 
                                                     <button id="" class=" level-2-trigger"
                                                         aria-owns="vin-2nd-lvl-menu-id-1" aria-expanded="false"><span
@@ -223,13 +230,14 @@
                                                         id="vin-2nd-lvl-menu-id-1">
                                                         <li id="" class="">
 
-                                                            <a href="/hotels/trump-international-hotel-las-vegas-nevada"
-                                                                class="" id="">Las Vegas, NV</a>
+                                                            <a href="./hotels.html/trump-international-hotel-las-vegas-nevada"
+                                                                class="" id="">Las Vegas,
+                                                                NV</a>
 
                                                         </li>
                                                     </ul>
                                                 </li>
-                                                <li id="" class="active">
+                                                <li id="" class="">
 
                                                     <button id="" class=" level-2-trigger"
                                                         aria-owns="vin-2nd-lvl-menu-id-1" aria-expanded="false"><span
@@ -239,13 +247,13 @@
                                                         id="vin-2nd-lvl-menu-id-1">
                                                         <li id="" class="">
 
-                                                            <a href="/hotels/albemarle-estate-charlottesville-virginia"
+                                                            <a href="./hotels.html/albemarle-estate-charlottesville-virginia"
                                                                 class="" id="">Charlottesville, VA</a>
 
                                                         </li>
                                                     </ul>
                                                 </li>
-                                                <li id="" class="active">
+                                                <li id="" class="">
 
                                                     <button id="" class=" level-2-trigger"
                                                         aria-owns="vin-2nd-lvl-menu-id-1" aria-expanded="false"><span
@@ -255,13 +263,13 @@
                                                         id="vin-2nd-lvl-menu-id-1">
                                                         <li id="" class="">
 
-                                                            <a href="/hotels/trump-international-hotel-tower-chicago"
+                                                            <a href="./hotels.html/trump-international-hotel-tower-chicago"
                                                                 class="" id="">Chicago, IL</a>
 
                                                         </li>
                                                     </ul>
                                                 </li>
-                                                <li id="" class="active">
+                                                <li id="" class="">
 
                                                     <button id="" class=" level-2-trigger"
                                                         aria-owns="vin-2nd-lvl-menu-id-1" aria-expanded="false"><span
@@ -271,8 +279,9 @@
                                                         id="vin-2nd-lvl-menu-id-1">
                                                         <li id="" class="">
 
-                                                            <a href="/hotels/trump-international-hotel-tower-waikiki-hawaii"
-                                                                class="" id="">Waikiki, HI</a>
+                                                            <a href="./hotels.html/trump-international-hotel-tower-waikiki-hawaii"
+                                                                class="" id="">Waikiki,
+                                                                HI</a>
 
                                                         </li>
                                                     </ul>
@@ -285,7 +294,7 @@
                                             <!-- Draw Nav / Menu -->
                                             <ul class="cat level1-menu vin-1st-lvl-menu-4" id="vin-1st-lvl-menu-id-4"
                                                 aria-labelledby="sub-menu-section-hotels_europe_asia">
-                                                <li id="" class="active">
+                                                <li id="" class="">
 
                                                     <button id="" class=" level-2-trigger"
                                                         aria-owns="vin-2nd-lvl-menu-id-4" aria-expanded="false"><span
@@ -295,13 +304,13 @@
                                                         id="vin-2nd-lvl-menu-id-4">
                                                         <li id="" class="">
 
-                                                            <a href="/hotels/trump-international-golf-links-and-hotel-doonbeg-ireland"
+                                                            <a href="./hotels.html/trump-international-golf-links-and-hotel-doonbeg-ireland"
                                                                 class="" id="">Doonbeg, Ireland</a>
 
                                                         </li>
                                                     </ul>
                                                 </li>
-                                                <li id="" class="active">
+                                                <li id="" class="">
 
                                                     <button id="" class=" level-2-trigger"
                                                         aria-owns="vin-2nd-lvl-menu-id-4" aria-expanded="false"><span
@@ -311,19 +320,19 @@
                                                         id="vin-2nd-lvl-menu-id-4">
                                                         <li id="" class="">
 
-                                                            <a href="/hotels/trump-turnberry-scotland" class=""
+                                                            <a href="./hotels.html/trump-turnberry-scotland" class=""
                                                                 id="">Turnberry, Scotland</a>
 
                                                         </li>
                                                         <li id="" class="">
 
-                                                            <a href="/hotels/macleod-house-aberdeen-scotland" class=""
-                                                                id="">Aberdeen, Scotland</a>
+                                                            <a href="./hotels.html/macleod-house-aberdeen-scotland"
+                                                                class="" id="">Aberdeen, Scotland</a>
 
                                                         </li>
                                                     </ul>
                                                 </li>
-                                                <li id="" class="active">
+                                                <li id="" class="">
 
                                                     <button id="" class=" level-2-trigger"
                                                         aria-owns="vin-2nd-lvl-menu-id-4" aria-expanded="false"><span
@@ -333,7 +342,8 @@
                                                         id="vin-2nd-lvl-menu-id-4">
                                                         <li id="" class="">
 
-                                                            <a href="/hotels/muscat-oman" class="" id="">Muscat</a>
+                                                            <a href="./hotels.html/muscat-oman" class=""
+                                                                id="">Muscat</a>
 
                                                         </li>
                                                     </ul>
@@ -342,17 +352,17 @@
 
                                         </div>
                                     </div>
-                                    <a href="/hotels" class="mega-menu-right full-bg"
-                                        style="background-image: url(./website/business/TND_SFrances_SignatureShot_Daytime_NOGOLFERS_Square.jpg)">
+                                    <a href="./hotels.html" class="mega-menu-right full-bg"
+                                        style="background-image: url(./website/general/TND_SFrances_SignatureShot_Daytime_NOGOLFERS_Square.jpg)">
                                         <span>Trump National Doral <br> Miami, Florida</span>
-                                        <img src="./website/general/chi-crop2400spire.jpg"
+                                        <img src="./website/general/chi-mobile.png"
                                             alt="Trump National Doral <br> Miami, Florida" class="mobile-image">
                                     </a>
                                 </div>
                             </li>
                             <li class="level-1 has-dropdown-menu">
                                 <span onclick="location.href='/golf';" class="overview-btn btn">Overview</span>
-                                <a href="/golf" class="level-1-link level-1-trigger" aria-expanded="false"
+                                <a href="./golf.html" class="level-1-link level-1-trigger" aria-expanded="false"
                                     aria-haspopup="true" aria-owns="ddm-golf" id="ddm-golf-link"><span
                                         class="level-1-trigger-icon"></span>Golf</a>
                                 <div id="ddm-golf" class="mega-menu dropdown-menu" role="group"
@@ -363,7 +373,7 @@
                                             <!-- Draw Nav / Menu -->
                                             <ul class="cat level1-menu vin-1st-lvl-menu-2" id="vin-1st-lvl-menu-id-2"
                                                 aria-labelledby="sub-menu-section-golf_private">
-                                                <li id="" class="active">
+                                                <li id="" class="">
 
                                                     <button id="" class=" level-2-trigger"
                                                         aria-owns="vin-2nd-lvl-menu-id-2" aria-expanded="false"><span
@@ -382,11 +392,12 @@
                                                             <ul class="sub-cat level3-menu vin-3rd-lvl-menu-2"
                                                                 id="vin-3rd-lvl-menu-id-2">
                                                                 <li id="" class="">
-                                                                    <a href="/golf/trump-national-golf-club-hudson-valley"
-                                                                        class="" id="">Hudson Valley, NY </a>
+                                                                    <a href="./golf.html/trump-national-golf-club-hudson-valley"
+                                                                        class="" id="">Hudson Valley,
+                                                                        NY </a>
                                                                 </li>
                                                                 <li id="" class="">
-                                                                    <a href="/golf/trump-national-golf-club-westchester-new-york"
+                                                                    <a href="./golf.html/trump-national-golf-club-westchester-new-york"
                                                                         class="" id="">Westchester, NY </a>
                                                                 </li>
                                                             </ul>
@@ -402,15 +413,16 @@
                                                             <ul class="sub-cat level3-menu vin-3rd-lvl-menu-2"
                                                                 id="vin-3rd-lvl-menu-id-2">
                                                                 <li id="" class="">
-                                                                    <a href="/golf/trump-national-golf-club-bedminster-new-jersey"
+                                                                    <a href="./golf.html/trump-national-golf-club-bedminster-new-jersey"
                                                                         class="" id="">Bedminster, NJ</a>
                                                                 </li>
                                                                 <li id="" class="">
-                                                                    <a href="/golf/trump-national-golf-club-colts-neck-new-jersey"
-                                                                        class="" id="">Colts Neck, NJ</a>
+                                                                    <a href="./golf.html/trump-national-golf-club-colts-neck-new-jersey"
+                                                                        class="" id="">Colts
+                                                                        Neck, NJ</a>
                                                                 </li>
                                                                 <li id="" class="">
-                                                                    <a href="/golf/trump-national-golf-club-philadelphia"
+                                                                    <a href="./golf.html/trump-national-golf-club-philadelphia"
                                                                         class="" id="">Pine Hill, NJ</a>
                                                                 </li>
                                                             </ul>
@@ -425,11 +437,12 @@
                                                             <ul class="sub-cat level3-menu vin-3rd-lvl-menu-2"
                                                                 id="vin-3rd-lvl-menu-id-2">
                                                                 <li id="" class="">
-                                                                    <a href="/golf/trump-national-golf-club-jupiter-florida"
-                                                                        class="" id="">Jupiter, FL </a>
+                                                                    <a href="./golf.html/trump-national-golf-club-jupiter-florida"
+                                                                        class="" id="">Jupiter, FL
+                                                                    </a>
                                                                 </li>
                                                                 <li id="" class="">
-                                                                    <a href="/golf/trump-international-golf-club-west-palm-beach-florida"
+                                                                    <a href="./golf.html/trump-international-golf-club-west-palm-beach-florida"
                                                                         class="" id="">West Palm Beach, FL</a>
                                                                 </li>
                                                             </ul>
@@ -445,7 +458,7 @@
                                                             <ul class="sub-cat level3-menu vin-3rd-lvl-menu-2"
                                                                 id="vin-3rd-lvl-menu-id-2">
                                                                 <li id="" class="">
-                                                                    <a href="/golf/trump-national-golf-club-charlotte-north-carolina"
+                                                                    <a href="./golf.html/trump-national-golf-club-charlotte-north-carolina"
                                                                         class="" id="">Charlotte, NC</a>
                                                                 </li>
                                                             </ul>
@@ -456,13 +469,15 @@
                                                                 aria-owns="vin-3rd-lvl-menu-id-2"
                                                                 aria-expanded="false"><span
                                                                     class="level-3-trigger-icon"></span>District of
-                                                                Columbia </button>
+                                                                Columbia
+                                                            </button>
 
                                                             <ul class="sub-cat level3-menu vin-3rd-lvl-menu-2"
                                                                 id="vin-3rd-lvl-menu-id-2">
                                                                 <li id="" class="">
-                                                                    <a href="/golf/trump-national-golf-club-washington-dc"
-                                                                        class="" id="">Washington, D.C.</a>
+                                                                    <a href="./golf.html/trump-national-golf-club-washington-dc"
+                                                                        class="" id="">Washington,
+                                                                        D.C.</a>
                                                                 </li>
                                                             </ul>
                                                         </li>
@@ -476,7 +491,7 @@
                                             <!-- Draw Nav / Menu -->
                                             <ul class="cat level1-menu vin-1st-lvl-menu-5" id="vin-1st-lvl-menu-id-5"
                                                 aria-labelledby="sub-menu-section-golf_public">
-                                                <li id="" class="active">
+                                                <li id="" class="">
 
                                                     <button id="" class=" level-2-trigger"
                                                         aria-owns="vin-2nd-lvl-menu-id-5" aria-expanded="false"><span
@@ -494,8 +509,9 @@
                                                             <ul class="sub-cat level3-menu vin-3rd-lvl-menu-5"
                                                                 id="vin-3rd-lvl-menu-id-5">
                                                                 <li id="" class="">
-                                                                    <a href="/golf/trump-national-doral-golf-club-miami-florida"
-                                                                        class="" id="">Miami, FL</a>
+                                                                    <a href="./golf.html/trump-national-doral-golf-club-miami-florida"
+                                                                        class="" id="">Miami,
+                                                                        FL</a>
                                                                 </li>
                                                             </ul>
                                                         </li>
@@ -510,7 +526,7 @@
                                                             <ul class="sub-cat level3-menu vin-3rd-lvl-menu-5"
                                                                 id="vin-3rd-lvl-menu-id-5">
                                                                 <li id="" class="">
-                                                                    <a href="/golf/trump-golf-links-ferry-point"
+                                                                    <a href="./golf.html/trump-golf-links-ferry-point"
                                                                         class="" id="">Ferry Point, NY</a>
                                                                 </li>
                                                             </ul>
@@ -525,14 +541,15 @@
                                                             <ul class="sub-cat level3-menu vin-3rd-lvl-menu-5"
                                                                 id="vin-3rd-lvl-menu-id-5">
                                                                 <li id="" class="">
-                                                                    <a href="/golf/trump-national-golf-club-los-angeles-california"
-                                                                        class="" id="">Los Angeles, CA</a>
+                                                                    <a href="./golf.html/trump-national-golf-club-los-angeles-california"
+                                                                        class="" id="">Los
+                                                                        Angeles, CA</a>
                                                                 </li>
                                                             </ul>
                                                         </li>
                                                     </ul>
                                                 </li>
-                                                <li id="" class="active">
+                                                <li id="" class="">
 
                                                     <button id="" class=" level-2-trigger"
                                                         aria-owns="vin-2nd-lvl-menu-id-5" aria-expanded="false"><span
@@ -550,11 +567,11 @@
                                                             <ul class="sub-cat level3-menu vin-3rd-lvl-menu-5"
                                                                 id="vin-3rd-lvl-menu-id-5">
                                                                 <li id="" class="">
-                                                                    <a href="/golf/trump-turnberry-scotland" class=""
-                                                                        id="">Turnberry </a>
+                                                                    <a href="./golf.html/trump-turnberry-scotland"
+                                                                        class="" id="">Turnberry </a>
                                                                 </li>
                                                                 <li id="" class="">
-                                                                    <a href="/golf/trump-international-golf-links-aberdeen-scotland"
+                                                                    <a href="./golf.html/trump-international-golf-links-aberdeen-scotland"
                                                                         class="" id="">Aberdeen </a>
                                                                 </li>
                                                             </ul>
@@ -569,7 +586,7 @@
                                                             <ul class="sub-cat level3-menu vin-3rd-lvl-menu-5"
                                                                 id="vin-3rd-lvl-menu-id-5">
                                                                 <li id="" class="">
-                                                                    <a href="/golf/trump-international-golf-links-doonbeg-ireland"
+                                                                    <a href="./golf.html/trump-international-golf-links-doonbeg-ireland"
                                                                         class="" id="">Doonbeg</a>
                                                                 </li>
                                                             </ul>
@@ -584,12 +601,13 @@
                                                             <ul class="sub-cat level3-menu vin-3rd-lvl-menu-5"
                                                                 id="vin-3rd-lvl-menu-id-5">
                                                                 <li id="" class="">
-                                                                    <a href="/golf/trump-international-golf-club-dubai"
-                                                                        class="" id="">Trump International Golf Club</a>
+                                                                    <a href="./golf.html/trump-international-golf-club-dubai"
+                                                                        class="" id="">Trump International
+                                                                        Golf Club</a>
                                                                 </li>
                                                                 <li id="" class="">
-                                                                    <a href="/golf/trump-world-golf-club-dubai" class=""
-                                                                        id="">Trump World Golf Club</a>
+                                                                    <a href="./golf.html/trump-world-golf-club-dubai"
+                                                                        class="" id="">Trump World Golf Club</a>
                                                                 </li>
                                                             </ul>
                                                         </li>
@@ -603,11 +621,11 @@
                                                             <ul class="sub-cat level3-menu vin-3rd-lvl-menu-5"
                                                                 id="vin-3rd-lvl-menu-id-5">
                                                                 <li id="" class="">
-                                                                    <a href="/golf/trump-international-golf-club-and-resort-bali"
+                                                                    <a href="./golf.html/trump-international-golf-club-and-resort-bali"
                                                                         class="" id="">Bali</a>
                                                                 </li>
                                                                 <li id="" class="">
-                                                                    <a href="/golf/lido-city-indonesia" class=""
+                                                                    <a href="./golf.html/lido-city-indonesia" class=""
                                                                         id="">Lido City </a>
                                                                 </li>
                                                             </ul>
@@ -622,7 +640,7 @@
                                                             <ul class="sub-cat level3-menu vin-3rd-lvl-menu-5"
                                                                 id="vin-3rd-lvl-menu-id-5">
                                                                 <li id="" class="">
-                                                                    <a href="/golf/muscat-oman" class=""
+                                                                    <a href="./golf.html/muscat-oman" class=""
                                                                         id="">Muscat</a>
                                                                 </li>
                                                             </ul>
@@ -633,8 +651,8 @@
 
                                         </div>
                                     </div>
-                                    <a href="/golf" class="mega-menu-right full-bg"
-                                        style="background-image: url(./website/general/golf.jpg)">
+                                    <a href="./golf.html" class="mega-menu-right full-bg"
+                                        style="background-image: url(./website/general/golf_mm.jpg)">
                                         <span>Trump Turnberry <br> Ayshire, Scotland </span>
                                         <img src="./website/general/golf_mm.jpg"
                                             alt="Trump Turnberry <br>  Ayshire, Scotland " class="mobile-image">
@@ -642,9 +660,9 @@
                                 </div>
                             </li>
                             <li class="level-1 has-dropdown-menu">
-                                <span onclick="location.href='/residential-real-estate-portfolio';"
+                                <span onclick="location.href='./residential-real-estate-portfolio.html';"
                                     class="overview-btn btn">Overview</span>
-                                <a href="/residential-real-estate-portfolio" class="level-1-link level-1-trigger"
+                                <a href="./residential-real-estate-portfolio.html" class="level-1-link level-1-trigger"
                                     aria-expanded="false" aria-haspopup="true" aria-owns="ddm-residential"
                                     id="ddm-residential-link"><span class="level-1-trigger-icon"></span>Residential</a>
                                 <div id="ddm-residential" class="mega-menu dropdown-menu" role="group"
@@ -655,7 +673,7 @@
                                             <!-- Draw Nav / Menu -->
                                             <ul class="cat level1-menu vin-1st-lvl-menu-6" id="vin-1st-lvl-menu-id-6"
                                                 aria-labelledby="sub-menu-section-residential_north_america">
-                                                <li id="" class="active">
+                                                <li id="" class="">
 
                                                     <button id="" class=" level-2-trigger"
                                                         aria-owns="vin-2nd-lvl-menu-id-6" aria-expanded="false"><span
@@ -665,91 +683,95 @@
                                                         id="vin-2nd-lvl-menu-id-6">
                                                         <li id="" class="">
 
-                                                            <a href="/residential-real-estate-portfolio/trump-tower-new-york"
-                                                                class="" id="">Trump Tower </a>
+                                                            <a href="./residential-real-estate-portfolio.html/trump-tower-new-york"
+                                                                class="" id="">Trump
+                                                                Tower </a>
 
                                                         </li>
                                                         <li id="" class="">
 
-                                                            <a href="/residential-real-estate-portfolio/trump-international-hotel-tower-new-york"
+                                                            <a href="./residential-real-estate-portfolio.html/trump-international-hotel-tower-new-york"
                                                                 class="" id="">Trump International Hotel & Tower </a>
 
                                                         </li>
                                                         <li id="" class="">
 
-                                                            <a href="/residential-real-estate-portfolio/trump-park-avenue-new-york"
+                                                            <a href="./residential-real-estate-portfolio.html/trump-park-avenue-new-york"
                                                                 class="" id="">Trump Park Avenue </a>
 
                                                         </li>
                                                         <li id="" class="">
 
-                                                            <a href="/residential-real-estate-portfolio/trump-world-tower-new-york"
+                                                            <a href="./residential-real-estate-portfolio.html/trump-world-tower-new-york"
                                                                 class="" id="">Trump World Tower</a>
 
                                                         </li>
                                                         <li id="" class="">
 
-                                                            <a href="/residential-real-estate-portfolio/trump-parc-new-york"
-                                                                class="" id="">Trump Parc</a>
+                                                            <a href="./residential-real-estate-portfolio.html/trump-parc-new-york"
+                                                                class="" id="">Trump
+                                                                Parc</a>
 
                                                         </li>
                                                         <li id="" class="">
 
-                                                            <a href="/residential-real-estate-portfolio/trump-parc-east-new-york"
-                                                                class="" id="">Trump Parc East </a>
+                                                            <a href="./residential-real-estate-portfolio.html/trump-parc-east-new-york"
+                                                                class="" id="">Trump
+                                                                Parc East </a>
 
                                                         </li>
                                                         <li id="" class="">
 
-                                                            <a href="/residential-real-estate-portfolio/200-riverside-boulevard-new-york"
+                                                            <a href="./residential-real-estate-portfolio.html/200-riverside-boulevard-new-york"
                                                                 class="" id="">200 Riverside Boulevard</a>
 
                                                         </li>
                                                         <li id="" class="">
 
-                                                            <a href="/residential-real-estate-portfolio/220-riverside-boulevard-new-york"
+                                                            <a href="./residential-real-estate-portfolio.html/220-riverside-boulevard-new-york"
                                                                 class="" id="">220 Riverside Boulevard</a>
 
                                                         </li>
                                                         <li id="" class="">
 
-                                                            <a href="/residential-real-estate-portfolio/240-riverside-boulevard-new-york"
+                                                            <a href="./residential-real-estate-portfolio.html/240-riverside-boulevard-new-york"
                                                                 class="" id="">240 Riverside Boulevard</a>
 
                                                         </li>
                                                         <li id="" class="">
 
-                                                            <a href="/residential-real-estate-portfolio/trump-palace-new-york"
-                                                                class="" id="">Trump Palace</a>
+                                                            <a href="./residential-real-estate-portfolio.html/trump-palace-new-york"
+                                                                class="" id="">Trump
+                                                                Palace</a>
 
                                                         </li>
                                                         <li id="" class="">
 
-                                                            <a href="/residential-real-estate-portfolio/trump-plaza-new-rochelle-new-york"
+                                                            <a href="./residential-real-estate-portfolio.html/trump-plaza-new-rochelle-new-york"
                                                                 class="" id="">Trump Plaza</a>
 
                                                         </li>
                                                         <li id="" class="">
 
-                                                            <a href="/residential-real-estate-portfolio/trump-park-residences-yorktown-new-york"
+                                                            <a href="./residential-real-estate-portfolio.html/trump-park-residences-yorktown-new-york"
                                                                 class="" id="">Trump Park Residences Yorktown</a>
 
                                                         </li>
                                                         <li id="" class="">
 
-                                                            <a href="/residential-real-estate-portfolio/trump-tower-city-center-white-plains-new-york"
+                                                            <a href="./residential-real-estate-portfolio.html/trump-tower-city-center-white-plains-new-york"
                                                                 class="" id="">Trump Tower City Center</a>
 
                                                         </li>
                                                         <li id="" class="">
 
-                                                            <a href="/residential-real-estate-portfolio/trump-610-park-avenue-new-york"
+                                                            <a href="./residential-real-estate-portfolio.html/trump-610-park-avenue-new-york"
                                                                 class="" id="">610 Park Avenue </a>
 
                                                         </li>
                                                     </ul>
                                                 </li>
-                                                <li id="" class="active">
+                                                <li id="" class="">
 
                                                     <button id="" class=" level-2-trigger"
                                                         aria-owns="vin-2nd-lvl-menu-id-6" aria-expanded="false"><span
@@ -759,19 +781,20 @@
                                                         id="vin-2nd-lvl-menu-id-6">
                                                         <li id="" class="">
 
-                                                            <a href="/residential-real-estate-portfolio/trump-plaza-new-jersey"
-                                                                class="" id="">Trump Plaza</a>
+                                                            <a href="./residential-real-estate-portfolio.html/trump-plaza-new-jersey"
+                                                                class="" id="">Trump
+                                                                Plaza</a>
 
                                                         </li>
                                                         <li id="" class="">
 
-                                                            <a href="/residential-real-estate-portfolio/trump-bay-street-new-jersey"
+                                                            <a href="./residential-real-estate-portfolio.html/trump-bay-street-new-jersey"
                                                                 class="" id="">Trump Bay Street</a>
 
                                                         </li>
                                                     </ul>
                                                 </li>
-                                                <li id="" class="active">
+                                                <li id="" class="">
 
                                                     <button id="" class=" level-2-trigger"
                                                         aria-owns="vin-2nd-lvl-menu-id-6" aria-expanded="false"><span
@@ -781,13 +804,13 @@
                                                         id="vin-2nd-lvl-menu-id-6">
                                                         <li id="" class="">
 
-                                                            <a href="/residential-real-estate-portfolio/trump-parc-stamford-connecticut"
+                                                            <a href="./residential-real-estate-portfolio.html/trump-parc-stamford-connecticut"
                                                                 class="" id="">Stamford, CT</a>
 
                                                         </li>
                                                     </ul>
                                                 </li>
-                                                <li id="" class="active">
+                                                <li id="" class="">
 
                                                     <button id="" class=" level-2-trigger"
                                                         aria-owns="vin-2nd-lvl-menu-id-6" aria-expanded="false"><span
@@ -797,13 +820,13 @@
                                                         id="vin-2nd-lvl-menu-id-6">
                                                         <li id="" class="">
 
-                                                            <a href="/residential-real-estate-portfolio/trump-international-hotel-tower-waikiki-hawaii"
+                                                            <a href="./residential-real-estate-portfolio.html/trump-international-hotel-tower-waikiki-hawaii"
                                                                 class="" id="">Waikiki, HI</a>
 
                                                         </li>
                                                     </ul>
                                                 </li>
-                                                <li id="" class="active">
+                                                <li id="" class="">
 
                                                     <button id="" class=" level-2-trigger"
                                                         aria-owns="vin-2nd-lvl-menu-id-6" aria-expanded="false"><span
@@ -813,13 +836,13 @@
                                                         id="vin-2nd-lvl-menu-id-6">
                                                         <li id="" class="">
 
-                                                            <a href="/residential-real-estate-portfolio/trump-international-hotel-tower-chicago"
+                                                            <a href="./residential-real-estate-portfolio.html/trump-international-hotel-tower-chicago"
                                                                 class="" id="">Chicago, IL </a>
 
                                                         </li>
                                                     </ul>
                                                 </li>
-                                                <li id="" class="active">
+                                                <li id="" class="">
 
                                                     <button id="" class=" level-2-trigger"
                                                         aria-owns="vin-2nd-lvl-menu-id-6" aria-expanded="false"><span
@@ -829,13 +852,13 @@
                                                         id="vin-2nd-lvl-menu-id-6">
                                                         <li id="" class="">
 
-                                                            <a href="/residential-real-estate-portfolio/trump-international-las-vegas-nevada"
+                                                            <a href="./residential-real-estate-portfolio.html/trump-international-las-vegas-nevada"
                                                                 class="" id="">Las Vegas, NV</a>
 
                                                         </li>
                                                     </ul>
                                                 </li>
-                                                <li id="" class="active">
+                                                <li id="" class="">
 
                                                     <button id="" class=" level-2-trigger"
                                                         aria-owns="vin-2nd-lvl-menu-id-6" aria-expanded="false"><span
@@ -845,20 +868,22 @@
                                                         id="vin-2nd-lvl-menu-id-6">
                                                         <li id="" class="">
 
-                                                            <a href="/residential-real-estate-portfolio/trump-tower-sunny-isles-florida"
+                                                            <a href="./residential-real-estate-portfolio.html/trump-tower-sunny-isles-florida"
                                                                 class="" id="">Trump Tower Sunny Isles </a>
 
                                                         </li>
                                                         <li id="" class="">
 
-                                                            <a href="/residential-real-estate-portfolio/trump-hollywood-florida"
-                                                                class="" id="">Trump Hollywood</a>
+                                                            <a href="./residential-real-estate-portfolio.html/trump-hollywood-florida"
+                                                                class="" id="">Trump
+                                                                Hollywood</a>
 
                                                         </li>
                                                         <li id="" class="">
 
-                                                            <a href="/residential-real-estate-portfolio/trump-grande-florida"
-                                                                class="" id="">Trump Grande</a>
+                                                            <a href="./residential-real-estate-portfolio.html/trump-grande-florida"
+                                                                class="" id="">Trump
+                                                                Grande</a>
 
                                                         </li>
                                                     </ul>
@@ -871,7 +896,7 @@
                                             <!-- Draw Nav / Menu -->
                                             <ul class="cat level1-menu vin-1st-lvl-menu-7" id="vin-1st-lvl-menu-id-7"
                                                 aria-labelledby="sub-menu-section-residential_europe_asia">
-                                                <li id="" class="active">
+                                                <li id="" class="">
 
                                                     <button id="" class=" level-2-trigger"
                                                         aria-owns="vin-2nd-lvl-menu-id-7" aria-expanded="false"><span
@@ -881,31 +906,32 @@
                                                         id="vin-2nd-lvl-menu-id-7">
                                                         <li id="" class="">
 
-                                                            <a href="/residential-real-estate-portfolio/trump-tower-mumbai-india"
+                                                            <a href="./residential-real-estate-portfolio.html/trump-tower-mumbai-india"
                                                                 class="" id="">Mumbai, India </a>
 
                                                         </li>
                                                         <li id="" class="">
 
-                                                            <a href="/residential-real-estate-portfolio/trump-tower-kolkata-india"
+                                                            <a href="./residential-real-estate-portfolio.html/trump-tower-kolkata-india"
                                                                 class="" id="">Kolkata, India </a>
 
                                                         </li>
                                                         <li id="" class="">
 
-                                                            <a href="/residential-real-estate-portfolio/trump-tower-delhi-ncr-india"
+                                                            <a href="./residential-real-estate-portfolio.html/trump-tower-delhi-ncr-india"
                                                                 class="" id="">Delhi NCR, India </a>
 
                                                         </li>
                                                         <li id="" class="">
 
-                                                            <a href="/residential-real-estate-portfolio/trump-towers-pune-india"
-                                                                class="" id="">Pune, India</a>
+                                                            <a href="./residential-real-estate-portfolio.html/trump-towers-pune-india"
+                                                                class="" id="">Pune,
+                                                                India</a>
 
                                                         </li>
                                                     </ul>
                                                 </li>
-                                                <li id="" class="active">
+                                                <li id="" class="">
 
                                                     <button id="" class=" level-2-trigger"
                                                         aria-owns="vin-2nd-lvl-menu-id-7" aria-expanded="false"><span
@@ -915,19 +941,21 @@
                                                         id="vin-2nd-lvl-menu-id-7">
                                                         <li id="" class="">
 
-                                                            <a href="/residential-real-estate-portfolio/trump-residences-bali"
-                                                                class="" id="">Bali, Indonesia</a>
+                                                            <a href="./residential-real-estate-portfolio.html/trump-residences-bali"
+                                                                class="" id="">Bali,
+                                                                Indonesia</a>
 
                                                         </li>
                                                         <li id="" class="">
 
-                                                            <a href="/residential-real-estate-portfolio/trump-residences-lido"
-                                                                class="" id="">Lido, Indonesia</a>
+                                                            <a href="./residential-real-estate-portfolio.html/trump-residences-lido"
+                                                                class="" id="">Lido,
+                                                                Indonesia</a>
 
                                                         </li>
                                                     </ul>
                                                 </li>
-                                                <li id="" class="active">
+                                                <li id="" class="">
 
                                                     <button id="" class=" level-2-trigger"
                                                         aria-owns="vin-2nd-lvl-menu-id-7" aria-expanded="false"><span
@@ -937,13 +965,13 @@
                                                         id="vin-2nd-lvl-menu-id-7">
                                                         <li id="" class="">
 
-                                                            <a href="/residential-real-estate-portfolio/trump-world-seoul-south-korea"
+                                                            <a href="./residential-real-estate-portfolio.html/trump-world-seoul-south-korea"
                                                                 class="" id="">Seoul, South Korea </a>
 
                                                         </li>
                                                     </ul>
                                                 </li>
-                                                <li id="" class="active">
+                                                <li id="" class="">
 
                                                     <button id="" class=" level-2-trigger"
                                                         aria-owns="vin-2nd-lvl-menu-id-7" aria-expanded="false"><span
@@ -953,13 +981,13 @@
                                                         id="vin-2nd-lvl-menu-id-7">
                                                         <li id="" class="">
 
-                                                            <a href="/residential-real-estate-portfolio/trump-towers-istanbul-turkey"
+                                                            <a href="./residential-real-estate-portfolio.html/trump-towers-istanbul-turkey"
                                                                 class="" id="">Istanbul, Turkey </a>
 
                                                         </li>
                                                     </ul>
                                                 </li>
-                                                <li id="" class="active">
+                                                <li id="" class="">
 
                                                     <button id="" class=" level-2-trigger"
                                                         aria-owns="vin-2nd-lvl-menu-id-7" aria-expanded="false"><span
@@ -969,7 +997,7 @@
                                                         id="vin-2nd-lvl-menu-id-7">
                                                         <li id="" class="">
 
-                                                            <a href="/residential-real-estate-portfolio/trump-tower-makati-philippines"
+                                                            <a href="./residential-real-estate-portfolio.html/trump-tower-makati-philippines"
                                                                 class="" id="">Makati, Philippines </a>
 
                                                         </li>
@@ -983,7 +1011,7 @@
                                             <!-- Draw Nav / Menu -->
                                             <ul class="cat level1-menu vin-1st-lvl-menu-8" id="vin-1st-lvl-menu-id-8"
                                                 aria-labelledby="sub-menu-section-residential_south_america">
-                                                <li id="" class="active">
+                                                <li id="" class="">
 
                                                     <button id="" class=" level-2-trigger"
                                                         aria-owns="vin-2nd-lvl-menu-id-8" aria-expanded="false"><span
@@ -993,7 +1021,7 @@
                                                         id="vin-2nd-lvl-menu-id-8">
                                                         <li id="" class="">
 
-                                                            <a href="/residential-real-estate-portfolio/trump-tower-punta-del-este-uruguay"
+                                                            <a href="./residential-real-estate-portfolio.html/trump-tower-punta-del-este-uruguay"
                                                                 class="" id="">Punta del Este, Uruguay</a>
 
                                                         </li>
@@ -1009,7 +1037,7 @@
                                                 aria-labelledby="sub-menu-section-residential_realty">
                                                 <li id="" class="">
 
-                                                    <a href="/trump-international-realty" class="" id="">Trump
+                                                    <a href="trump-international-realty.html" class="" id="">Trump
                                                         International Realty</a>
 
                                                 </li>
@@ -1017,7 +1045,7 @@
 
                                         </div>
                                     </div>
-                                    <a href="/residential-real-estate-portfolio" class="mega-menu-right full-bg"
+                                    <a href="./residential-real-estate-portfolio.html" class="mega-menu-right full-bg"
                                         style="background-image: url(./website/general/residential.jpg)">
                                         <span>Trump International Hotel & Tower <br> Chicago, Illinois</span>
                                         <img src="./website/general/res_mm.jpg"
@@ -1029,9 +1057,9 @@
                         </ul>
                         <ul class="menu-right">
                             <li class="level-1 has-dropdown-menu">
-                                <span onclick="location.href='/commercial-real-estate-portfolio';"
+                                <span onclick="location.href='commercial-real-estate-portfolio.html';"
                                     class="overview-btn btn">Overview</span>
-                                <a href="/commercial-real-estate-portfolio" class="level-1-link level-1-trigger"
+                                <a href="commercial-real-estate-portfolio.html" class="level-1-link level-1-trigger"
                                     aria-expanded="false" aria-haspopup="true" aria-owns="ddm-commercial"
                                     id="ddm-commercial-link"><span class="level-1-trigger-icon"></span>Commercial</a>
                                 <div id="ddm-commercial" class="mega-menu dropdown-menu" role="group"
@@ -1043,7 +1071,7 @@
                                             <!-- Draw Nav / Menu -->
                                             <ul class="cat level1-menu vin-1st-lvl-menu-9" id="vin-1st-lvl-menu-id-9"
                                                 aria-labelledby="sub-menu-section-commercial_current_properties">
-                                                <li id="" class="active">
+                                                <li id="" class="">
 
                                                     <button id="" class=" level-2-trigger"
                                                         aria-owns="vin-2nd-lvl-menu-id-9" aria-expanded="false"><span
@@ -1053,25 +1081,26 @@
                                                         id="vin-2nd-lvl-menu-id-9">
                                                         <li id="" class="">
 
-                                                            <a href="/commercial-real-estate-portfolio/trump-tower"
+                                                            <a href="commercial-real-estate-portfolio.html/trump-tower"
                                                                 class="" id="">Trump Tower</a>
 
                                                         </li>
                                                         <li id="" class="">
 
-                                                            <a href="/commercial-real-estate-portfolio/1290-avenue-of-the-americas"
+                                                            <a href="commercial-real-estate-portfolio.html/1290-avenue-of-the-americas"
                                                                 class="" id="">1290 Avenue of the Americas</a>
 
                                                         </li>
                                                         <li id="" class="">
 
-                                                            <a href="/commercial-real-estate-portfolio/40-wall-street"
-                                                                class="" id="">40 Wall Street</a>
+                                                            <a href="commercial-real-estate-portfolio.html/40-wall-street"
+                                                                class="" id="">40 Wall
+                                                                Street</a>
 
                                                         </li>
                                                     </ul>
                                                 </li>
-                                                <li id="" class="active">
+                                                <li id="" class="">
 
                                                     <button id="" class=" level-2-trigger"
                                                         aria-owns="vin-2nd-lvl-menu-id-9" aria-expanded="false"><span
@@ -1081,8 +1110,9 @@
                                                         id="vin-2nd-lvl-menu-id-9">
                                                         <li id="" class="">
 
-                                                            <a href="/commercial-real-estate-portfolio/555-california-street"
-                                                                class="" id="">555 California Street</a>
+                                                            <a href="commercial-real-estate-portfolio.html/555-california-street"
+                                                                class="" id="">555
+                                                                California Street</a>
 
                                                         </li>
                                                     </ul>
@@ -1095,7 +1125,7 @@
                                             <!-- Draw Nav / Menu -->
                                             <ul class="cat level1-menu vin-1st-lvl-menu-10" id="vin-1st-lvl-menu-id-10"
                                                 aria-labelledby="sub-menu-section-commercial_past_properties">
-                                                <li id="" class="active">
+                                                <li id="" class="">
 
                                                     <button id="" class=" level-2-trigger"
                                                         aria-owns="vin-2nd-lvl-menu-id-10" aria-expanded="false"><span
@@ -1105,25 +1135,28 @@
                                                         id="vin-2nd-lvl-menu-id-10">
                                                         <li id="" class="">
 
-                                                            <a href="/commercial-real-estate-portfolio/the-grand-hyatt-hotel"
-                                                                class="" id="">The Grand Hyatt Hotel</a>
+                                                            <a href="commercial-real-estate-portfolio.html/the-grand-hyatt-hotel"
+                                                                class="" id="">The Grand
+                                                                Hyatt Hotel</a>
 
                                                         </li>
                                                         <li id="" class="">
 
-                                                            <a href="/commercial-real-estate-portfolio/empire-state-building"
-                                                                class="" id="">Empire State Building</a>
+                                                            <a href="commercial-real-estate-portfolio.html/empire-state-building"
+                                                                class="" id="">Empire
+                                                                State Building</a>
 
                                                         </li>
                                                         <li id="" class="">
 
-                                                            <a href="/commercial-real-estate-portfolio/the-plaza-hotel"
-                                                                class="" id="">The Plaza Hotel</a>
+                                                            <a href="commercial-real-estate-portfolio.html/the-plaza-hotel"
+                                                                class="" id="">The Plaza
+                                                                Hotel</a>
 
                                                         </li>
                                                         <li id="" class="">
 
-                                                            <a href="/commercial-real-estate-portfolio/gm-building"
+                                                            <a href="commercial-real-estate-portfolio.html/gm-building"
                                                                 class="" id="">GM Building</a>
 
                                                         </li>
@@ -1133,7 +1166,7 @@
 
                                         </div>
                                     </div>
-                                    <a href="/commercial-real-estate-portfolio" class="mega-menu-right full-bg"
+                                    <a href="commercial-real-estate-portfolio.html" class="mega-menu-right full-bg"
                                         style="background-image: url(./website/general/40wall__comp.jpg)">
                                         <span>40 Wall Street <br> New York, New York</span>
                                         <img src="./website/general/40wallmobile_.jpg"
@@ -1143,7 +1176,7 @@
                             </li>
                             <li class="level-1 has-dropdown-menu">
                                 <span onclick="location.href='/estates';" class="overview-btn btn">Overview</span>
-                                <a href="/estates" class="level-1-link level-1-trigger" aria-expanded="false"
+                                <a href="./estate.html" class="level-1-link level-1-trigger" aria-expanded="false"
                                     aria-haspopup="true" aria-owns="ddm-estates" id="ddm-estates-link"><span
                                         class="level-1-trigger-icon"></span>Estates</a>
                                 <div id="ddm-estates" class="mega-menu dropdown-menu" role="group"
@@ -1154,7 +1187,7 @@
                                             <!-- Draw Nav / Menu -->
                                             <ul class="cat level1-menu vin-1st-lvl-menu-11" id="vin-1st-lvl-menu-id-11"
                                                 aria-labelledby="sub-menu-section-estates_north_america">
-                                                <li id="" class="active">
+                                                <li id="" class="">
 
                                                     <button id="" class=" level-2-trigger"
                                                         aria-owns="vin-2nd-lvl-menu-id-11" aria-expanded="false"><span
@@ -1162,15 +1195,15 @@
 
                                                     <ul class="sub-cat level2-menu vin-2nd-lvl-menu-11"
                                                         id="vin-2nd-lvl-menu-id-11">
-                                                        <li id="" class="">
+                                                        <li id="" class="active">
 
-                                                            <a href="/estates/mar-a-lago-club" class="" id="">Mar-A-Lago
-                                                                Club, FL</a>
+                                                            <a href="./estate.html/mar-a-lago-club" class=""
+                                                                id="">Mar-A-Lago Club, FL</a>
 
                                                         </li>
                                                     </ul>
                                                 </li>
-                                                <li id="" class="active">
+                                                <li id="" class="">
 
                                                     <button id="" class=" level-2-trigger"
                                                         aria-owns="vin-2nd-lvl-menu-id-11" aria-expanded="false"><span
@@ -1180,13 +1213,13 @@
                                                         id="vin-2nd-lvl-menu-id-11">
                                                         <li id="" class="">
 
-                                                            <a href="/estates/bedford-new-york" class="" id="">Seven
-                                                                Springs</a>
+                                                            <a href="./estate.html/bedford-new-york" class=""
+                                                                id="">Seven Springs</a>
 
                                                         </li>
                                                     </ul>
                                                 </li>
-                                                <li id="" class="active">
+                                                <li id="" class="">
 
                                                     <button id="" class=" level-2-trigger"
                                                         aria-owns="vin-2nd-lvl-menu-id-11" aria-expanded="false"><span
@@ -1196,13 +1229,14 @@
                                                         id="vin-2nd-lvl-menu-id-11">
                                                         <li id="" class="">
 
-                                                            <a href="/estates/albemarle-estate-charlottesville-virginia"
-                                                                class="" id="">Albemarle Estate, VA</a>
+                                                            <a href="./estate.html/albemarle-estate-charlottesville-virginia"
+                                                                class="" id="">Albemarle
+                                                                Estate, VA</a>
 
                                                         </li>
                                                     </ul>
                                                 </li>
-                                                <li id="" class="active">
+                                                <li id="" class="">
 
                                                     <button id="" class=" level-2-trigger"
                                                         aria-owns="vin-2nd-lvl-menu-id-11" aria-expanded="false"><span
@@ -1212,8 +1246,8 @@
                                                         id="vin-2nd-lvl-menu-id-11">
                                                         <li id="" class="">
 
-                                                            <a href="/estates/los-angeles-californa" class="" id="">The
-                                                                Estates, CA</a>
+                                                            <a href="./estate.html/los-angeles-californa" class=""
+                                                                id="">The Estates, CA</a>
 
                                                         </li>
                                                     </ul>
@@ -1226,7 +1260,7 @@
                                             <!-- Draw Nav / Menu -->
                                             <ul class="cat level1-menu vin-1st-lvl-menu-12" id="vin-1st-lvl-menu-id-12"
                                                 aria-labelledby="sub-menu-section-estates_europe">
-                                                <li id="" class="active">
+                                                <li id="" class="">
 
                                                     <button id="" class=" level-2-trigger"
                                                         aria-owns="vin-2nd-lvl-menu-id-12" aria-expanded="false"><span
@@ -1236,8 +1270,8 @@
                                                         id="vin-2nd-lvl-menu-id-12">
                                                         <li id="" class="">
 
-                                                            <a href="/estates/aberdeen-scotland" class="" id="">Macleod
-                                                                House & Lodge, Scotland</a>
+                                                            <a href="./estate.html/aberdeen-scotland" class=""
+                                                                id="">Macleod House & Lodge, Scotland</a>
 
                                                         </li>
                                                     </ul>
@@ -1250,7 +1284,7 @@
                                             <!-- Draw Nav / Menu -->
                                             <ul class="cat level1-menu vin-1st-lvl-menu-16" id="vin-1st-lvl-menu-id-16"
                                                 aria-labelledby="sub-menu-section-estates_caribbean">
-                                                <li id="" class="active">
+                                                <li id="" class="">
 
                                                     <button id="" class=" level-2-trigger"
                                                         aria-owns="vin-2nd-lvl-menu-id-16" aria-expanded="false"><span
@@ -1260,8 +1294,8 @@
                                                         id="vin-2nd-lvl-menu-id-16">
                                                         <li id="" class="">
 
-                                                            <a href="/estates/st-martin" class="" id="">Le Chateau Des
-                                                                Palmiers</a>
+                                                            <a href="./estate.html/st-martin" class="" id="">Le Chateau
+                                                                Des Palmiers</a>
 
                                                         </li>
                                                     </ul>
@@ -1270,7 +1304,7 @@
 
                                         </div>
                                     </div>
-                                    <a href="/estates" class="mega-menu-right full-bg"
+                                    <a href="./estate.html" class="mega-menu-right full-bg"
                                         style="background-image: url(./website/general/estates.jpg)">
                                         <span>Trump Seven Springs <br> Bedford, New York</span>
                                         <img src="./website/general/estates_mm.jpg"
@@ -1279,8 +1313,9 @@
                                 </div>
                             </li>
                             <li class="level-1 has-dropdown-menu">
-                                <span onclick="location.href='/lifestyle';" class="overview-btn btn">Overview</span>
-                                <a href="/lifestyle" class="level-1-link level-1-trigger" aria-expanded="false"
+                                <span onclick="location.href='./lifestyle.html';"
+                                    class="overview-btn btn">Overview</span>
+                                <a href="./lifestyle.html" class="level-1-link level-1-trigger" aria-expanded="false"
                                     aria-haspopup="true" aria-owns="ddm-lifestyle" id="ddm-lifestyle-link"><span
                                         class="level-1-trigger-icon"></span>lifestyle</a>
                                 <div id="ddm-lifestyle" class="mega-menu dd-wider-image dd-1-col dropdown-menu"
@@ -1293,51 +1328,51 @@
                                                 aria-labelledby="sub-menu-section-lifestyle">
                                                 <li id="" class="">
 
-                                                    <a href="/lifestyle/the-apprentice" class="" id="">The
+                                                    <a href="./lifestyle.html/the-apprentice" class="" id="">The
                                                         Apprentice</a>
 
                                                 </li>
                                                 <li id="" class="">
 
-                                                    <a href="/lifestyle/aviation" class="" id="">Aviation </a>
+                                                    <a href="./lifestyle.html/aviation" class="" id="">Aviation </a>
 
                                                 </li>
                                                 <li id="" class="">
 
-                                                    <a href="/lifestyle/dining" class="" id="">Dining</a>
+                                                    <a href="./lifestyle.html/dining" class="" id="">Dining</a>
 
                                                 </li>
                                                 <li id="" class="">
 
-                                                    <a href="/lifestyle/retail" class="" id="">Retail</a>
+                                                    <a href="./lifestyle.html/retail" class="" id="">Retail</a>
 
                                                 </li>
                                                 <li id="" class="">
 
-                                                    <a href="/lifestyle/wollman-rink-central-park-attractions" class=""
-                                                        id="">Wollman Rink</a>
+                                                    <a href="./lifestyle.html/wollman-rink-central-park-attractions"
+                                                        class="" id="">Wollman Rink</a>
 
                                                 </li>
                                                 <li id="" class="">
 
-                                                    <a href="/trump-store" class="" id="">Trump Store</a>
+                                                    <a href="./trump-store.html" class="" id="">Trump Store</a>
 
                                                 </li>
                                             </ul>
 
                                         </div>
                                     </div>
-                                    <a href="/lifestyle" class="mega-menu-right full-bg"
-                                        style="background-image: url(./website/lifestyle/lifestyle_desktop.jpg)">
+                                    <a href="./lifestyle.html" class="mega-menu-right full-bg"
+                                        style="background-image: url(./website/general./lifestyle.html_mobile.jpg)">
                                         <span>The Vaults at 40 Wall Street <br> New York, New York</span>
-                                        <img src="./website/lifestyle/lifestyle_mobile.jpg"
+                                        <img src="./website/general./lifestyle.html_mobile.jpg"
                                             alt="The Vaults at 40 Wall Street <br> New York, New York"
                                             class="mobile-image">
                                     </a>
                                 </div>
                             </li>
                             <li class="level-1 has-dropdown-menu">
-                                <a href="/media/the-world-of-trump" class="level-1-link level-1-trigger"
+                                <a href="./the-world-of-trump.html" class="level-1-link level-1-trigger"
                                     aria-expanded="false" aria-haspopup="true" aria-owns="ddm-media"
                                     id="ddm-media-link"><span class="level-1-trigger-icon"></span>Media</a>
                                 <div id="ddm-media" class="mega-menu dd-wider-image dd-1-col dropdown-menu" role="group"
@@ -1376,7 +1411,7 @@
                                 </div>
                             </li>
                             <li class="level-1 shop-link mobile-only">
-                                <a class="level-1-link" href="/trump-store" target="_blank">Shop</a>
+                                <a class="level-1-link" href="./trump-store.html" target="_blank">Shop</a>
                             </li>
                         </ul>
                     </div>
@@ -1388,150 +1423,100 @@
             </header>
             <main role="main" id="main" class="hide-mobile-menu-open">
 
-
-
-
-
-
-
-
-
-
-
-
-                <div class="banner-triangle banner-auto-height full-bg overlay overlay-black-50"
-                    style="background-image: url(./website/business/LA_Artboard_1.jpg)">
-                    <div class="container container-1200 flex flex-align-center">
-                        <div class="content flex">
-                            <div class="intro-display-type">
-                                <h1 class="display-title-4">Estates</h1>
-                                <div class="summary">
-                                    <p>Our Collection of Estates represent the most premier <br>
-                                        and exclusive properties anywhere in the world. <br>
-                                        Each one is more unique than the next with architectural <br>
-                                        details and history that simply cannot be replicated. </p>
-                                </div>
-                            </div>
+                <section>
+                    <div class="section-header">
+                        <img src="./media/header.jpeg" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, 
+                            fuga! Perspiciatis ab nihil aut eveniet? Magni velit, delectus alias excepturi voluptatem illo expedita ullam at dolores laboriosam unde. 
+                            Consectetur eligendi dolorum repellendus quis molestiae doloribus exercitationem omnis eaque saepe? 
+                            Tempore ducimus veniam accusamus, consequuntur ea velit ipsam porro debitis voluptas repellat! Sequi harum, 
+                            architecto dicta id modi temporibus voluptatum et, recusandae praesentium porro mollitia ex illum earum nostrum? Ut amet est aliquam atque animi, 
+                            maiores doloribus repellat fuga sed dolorem, 
+                            fugiat molestiae excepturi enim non quam. Est cupiditate cum officia harum doloribus at tenetur ipsam nesciunt. Rem veniam officiis minima!
+                        </p>
+                    </div>
+                    <div class="container">
+                        <div class="left">
+                          <div class="header">
+                            <h2 class="animation a1">Lorem, ipsum.</h2>
+                            <h4 class="animation a2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda.</h4>
+                          </div>
+                          <div class="form">
+                            <input type="text" class="form-field animation a3" placeholder="Name">
+                            <input type="amount" class="form-field animation a4" placeholder="Amount">
+                            <textarea name="" id="" class="form-field animation a3" placeholder="Reason for Loan"></textarea>
+                            <!-- <textarea type="" class="form-field animation a4" Reason for Loan> -->
+                            <button class="animation a6">Submit</button>
+                          </div>
                         </div>
+                        <div class="right"></div>
+                      </div>
+                      
+                </section>
+
+                <footer id="footer" data-dev="deviarte" role="contentinfo">
+                    <div class="content">
+                        <div class="footer-left" role="navigation" aria-label="Secondary Navigation">
+                            <ul>
+                                <li><a href="https://www.trumphotels.com" target="_blank">Trump Hotels</a></li>
+                                <li><a href="https://www.trumpgolf.com" target="_blank">Trump Golf</a></li>
+                                <li><a href="https://www.trumpinternationalrealty.com" target="_blank">Trump
+                                        International Realty</a></li>
+                                <li><a href="https://www.booktrumpgolf.com" target="_blank">Book Trump Golf</a></li>
+                                <li><a href="https://www.trumpstore.com" target="_blank">Trump Store</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-right">
+                            <ul>
+                                <li><a href="/terms-of-use">Terms of Service</a></li>
+                                <li><a href="/privacy-and-cookie-policy">Privacy Policy</a></li>
+                                <li><a href="/transparency-in-coverage">Coverage</a></li>
+                                <li><a href="/connect">Connect</a></li>
+                                <li>Copyright &copy; 2023 The Trump Organization</li>
+                            </ul>
+                        </div>
+                        <span class="clear"></span>
+                        <ul id="footer-social">
+                            <li class="instagram">
+                                <a href="https://www.instagram.com/Trump/" class="icon"><span
+                                        class="visually-hidden">Instagram</span></a>
+                            </li>
+                            <li class="facebook">
+                                <a href="https://www.facebook.com/Trump" class="icon"><span
+                                        class="visually-hidden">Facebook</span></a>
+                            </li>
+                            <li class="twitter">
+                                <a href="https://twitter.com/Trump" class="icon"><span
+                                        class="visually-hidden">Twitter</span></a>
+                            </li>
+                        </ul>
                     </div>
-
-                    <span class="triangle icon"></span>
-                </div>
-                <div class="container container-1200">
-                    <div class="body-callout vp-80 hp hp-25">
-                        <h2>Explore the Trump Family’s <br> collection of treasured estates </h2>
-                    </div>
-                    <div class="square-box-feed flex pb-100">
-
-                        <a href="/estates/aberdeen-scotland/" class="box image-square full-bg"
-                            style="background-image: url(./website/business/Aberdeen_MacLeod_House_and_Lodge2.jpg)">
-                            <span class="caption">
-                                MACLEOD <br> HOUSE & LODGE
-                            </span>
-                        </a>
-
-                        <a href="/estates/st-martin/" class="box image-square full-bg"
-                            style="background-image: url(./website/business/IMG_5868-Modifier-Modifier.jpg)">
-                            <span class="caption">
-                                Le Chateau Des Palmiers
-                            </span>
-                        </a>
-
-                        <a href="/estates/bedford-new-york/" class="box image-square full-bg"
-                            style="background-image: url(./website/business/7springs_180702_EJ_trump_7springs_drone-0132-Edit_HIGH.jpg)">
-                            <span class="caption">
-                                Seven Springs
-                            </span>
-                        </a>
-
-                        <a href="/estates/mar-a-lago-club/" class="box image-square full-bg"
-                            style="background-image: url(./website/business/maralago.jpg)">
-                            <span class="caption">
-                                The Mar-A-Lago Club
-                            </span>
-                        </a>
-
-                        <a href="/estates/los-angeles-californa/" class="box image-square full-bg"
-                            style="background-image: url(./website/business/estatesLA.jpg)">
-                            <span class="caption">
-                                The Estates <br> at Trump National
-                            </span>
-                        </a>
-
-                        <a href="/estates/albemarle-estate-charlottesville-virginia/" class="box image-square full-bg"
-                            style="background-image: url(./website/business/vineyard_.jpg)">
-                            <span class="caption">
-                                ALBEMARLE ESTATE
-                            </span>
-                        </a>
-
-                    </div>
-                </div>
-            </main>
+                </footer>
         </div>
-        <footer id="footer" data-dev="deviarte" role="contentinfo">
-            <div class="content">
-                <div class="footer-left" role="navigation" aria-label="Secondary Navigation">
-                    <ul>
-                        <li><a href="https://www.trumphotels.com" target="_blank">Trump Hotels</a></li>
-                        <li><a href="https://www.trumpgolf.com" target="_blank">Trump Golf</a></li>
-                        <li><a href="https://www.trumpinternationalrealty.com" target="_blank">Trump International
-                                Realty</a></li>
-                        <li><a href="https://www.booktrumpgolf.com" target="_blank">Book Trump Golf</a></li>
-                        <li><a href="https://www.trumpstore.com" target="_blank">Trump Store</a></li>
-                    </ul>
-                </div>
-                <div class="footer-right">
-                    <ul>
-                        <li><a href="/terms-of-use">Terms of Service</a></li>
-                        <li><a href="/privacy-and-cookie-policy">Privacy Policy</a></li>
-                        <li><a href="/transparency-in-coverage">Coverage</a></li>
-                        <li><a href="/connect">Connect</a></li>
-                        <li>Copyright &copy; 2023 The Trump Organization</li>
-                    </ul>
-                </div>
-                <span class="clear"></span>
-                <ul id="footer-social">
-                    <li class="instagram">
-                        <a href="https://www.instagram.com/Trump/" class="icon"><span
-                                class="visually-hidden">Instagram</span></a>
-                    </li>
-                    <li class="facebook">
-                        <a href="https://www.facebook.com/Trump" class="icon"><span
-                                class="visually-hidden">Facebook</span></a>
-                    </li>
-                    <li class="twitter">
-                        <a href="https://twitter.com/Trump" class="icon"><span
-                                class="visually-hidden">Twitter</span></a>
-                    </li>
-                </ul>
-            </div>
-        </footer>
-    </div>
-    <script type="text/javascript" src="./assets/js/site.js"></script>
-    <script type="text/javascript" src="./assets/js/vendor.js"></script>
+        <script type="text/javascript" src="./assets/js/site.js"></script>
+        <script type="text/javascript" src="./assets/js/vendor.js"></script>
 
-    <script>
-        //fix for weird iphone safari fixed element body scroll
-        $(document).ready(function () {
-            $('#mobile-menu-trigger').click(function (e) {
-                if ($(window).width() > 960) {
-                    // do nothing
-                } else {
-                    const targetElement = document.querySelector("#menu");
-                    if ($(this).attr('aria-expanded') == 'false') { bodyScrollLock.enableBodyScroll(targetElement); } else { bodyScrollLock.disableBodyScroll(targetElement); }
-                }
+        <script>
+            //fix for weird iphone safari fixed element body scroll
+            $(document).ready(function () {
+                $('#mobile-menu-trigger').click(function (e) {
+                    if ($(window).width() > 960) {
+                        // do nothing
+                    } else {
+                        const targetElement = document.querySelector("#menu");
+                        if ($(this).attr('aria-expanded') == 'false') { bodyScrollLock.enableBodyScroll(targetElement); } else { bodyScrollLock.disableBodyScroll(targetElement); }
+                    }
+                });
             });
-        });
-    </script>
+        </script>
 
 
 
 
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZF569M" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZF569M" height="0" width="0"
+                style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
 
 
 </body>
